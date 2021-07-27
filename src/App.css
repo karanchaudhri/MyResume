@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+@page {
+  margin: 0;
+}
+
+.Resume {
+  size: A4;
+  margin: 0;
+  -webkit-print-color-adjust: exact;
 }
 
 .App-logo {
@@ -35,4 +41,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: local('Ubuntu-Medium'), url(./fonts/Ubuntu-Medium.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: local('Ubuntu-Regular'), url(./fonts/Ubuntu-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: local('Ubuntu-Bold'), url(./fonts/Ubuntu-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-MediumItalic';
+  src: local('Ubuntu-MediumItalic'), url(./fonts/Ubuntu-MediumItalic.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-LightItalic';
+  src: local('Ubuntu-LightItalic'), url(./fonts/Ubuntu-LightItalic.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Italic';
+  src: local('Ubuntu-Italic'), url(./fonts/Ubuntu-Italic.ttf) format('opentype');
 }
