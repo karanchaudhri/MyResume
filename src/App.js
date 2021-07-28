@@ -30,8 +30,10 @@ function App() {
                 rightInfo={'San Francisco, CA'}>
                 <Responsibilities
                   responsibilities={[
-                  'Responsible for designing & developing AppD\'s Mobile App in React Native from scratch & various Backend API\'s to support the app.',
-                  'Designed & implemented push notifications feature for sending alerts to the customers.'
+                  'Designed & developed AppD\'s Mobile App in React Native from scratch & various Backend API\'s to support the app.',
+                  'Responsible for setting up pipelines for CI/CD for the new app, implemented detox e2e testing for Android/IOS which performs rigorous testing before we make a release.',
+                  'Designed & implemented push notifications feature for sending alerts to the customers.',
+                  'Implemented Lazy Loading for the API\'s returning huge amount of data.',
                   ]}/>
               </Experience>
 
@@ -43,7 +45,8 @@ function App() {
                 <Responsibilities responsibilities={[
                   'Part of Attractions team responsible for designing & developing Desktop, Mobile website & API\'s for Native.',
                   'Improved Viator.com user search experience using better/efficient Solr queries.',
-                  'Unified user review collection platform for TripAdvisor.com & Viator.com, migrating 2.3M user reviews'
+                  'Unified user review collection platform for TripAdvisor.com & Viator.com, migrating 2.3M user reviews',
+                  'Integrated payment methods like PayPal that can be accepted on TripAdvisor.com.'
                 ]}/>
               </Experience>
 
@@ -54,7 +57,8 @@ function App() {
                 rightInfo={'Atlanta, GA'}>
                 <Responsibilities
                   responsibilities={[
-                    'Worked with Boxer Android team responsible for developing Email app & developed features like segregation of device calendars, implementation of OAuth 2.0'
+                    'Worked with Boxer Android team responsible for developing Email app & developed features like segregation of device calendars, implementation of OAuth 2.0',
+                    'Developed ‘Log Analyzer’ which interprets the logs and provides visualization which helps debugging an issue faster, thus increases productivity.'
                   ]}/>
               </Experience>
 
@@ -67,8 +71,8 @@ function App() {
                 <Responsibilities
                   responsibilities={[
                   'Developed Android application from scratch for online travel booking.',
-                  'Devised techniques to minimize lost payments transactions on mobile/website by 50%',
-                  'Responsible for creating Payments backend API’s & services'
+                  'Devised techniques to minimize lost payments transactions on mobile/website by 50%.',
+                  'Responsible for creating Payments backend API’s & services.'
                 ]} />
               </Experience>
             </div>
@@ -102,6 +106,12 @@ function App() {
 
             <SectionTitle style={styles.personalProjectsTitle} title={'PERSONAL PROJECTS'}/>
             <div style={styles.projectsContainer}>
+              <Project
+                title={'3D Printed Bar Machine'}
+                points={[
+                  'Designed & 3D printed a machine which allows pouring upto 8 liquids in parallel and thus serves as a cocktail mixer. The machine is controlled by a React Native app where user can specify quantity of each liquid for mixing.'
+                ]}/>
+
               <Project
                 title={'Home Automation'}
                 points={[
